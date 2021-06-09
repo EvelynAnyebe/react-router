@@ -1,25 +1,19 @@
-import { useEffect, useState } from 'react';
-import Card from '../components/card';
+import '../styles/home.css';
+import {Link} from 'react-router-dom';
 
 const Home = () => {
-	let [posts, setPosts] = useState([]);
-
-	useEffect(() => {
-		fetch('https://jsonplaceholder.typicode.com/posts')
-			.then((res) => res.json())
-			.then((result) => {
-				console.log(result);
-				setPosts(result);
-			});
-	}, []);
-
 	return (
-		<div className='App'>
-			{posts.map(({ id, title, body, userId }) => (
-				<Card key={id} title={title} body={body} userId={userId} />
-			))}
+		<div className='mainbox'>
+			<h1>Welcome!</h1>
+			<div className='home-msg'>
+				Get started by viewing user posts for free!!
+				<p>
+					Let's go <Link to='/post'>User Posts</Link> and try from there.
+				</p>
+			</div>
 		</div>
 	);
 };
+
 
 export default Home;

@@ -1,0 +1,14 @@
+
+.main h1 {
+	color: #666;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 5em;
+    text-align: center;
+}
+
+
+.home-msg {
+	text-align: center;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 1.1em;
+}

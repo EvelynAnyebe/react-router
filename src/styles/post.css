@@ -1,0 +1,28 @@
+.post-title{
+    font-size: 4em;
+}
+
+.post-msg{
+        text-align: justify;
+        font-family: 'Nunito Sans', sans-serif;
+}
+
+.post-link{
+    display: flex;
+    width:100%;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+.post-link:nth-child(odd){
+    margin-right: 2px;
+}
+
+.link{
+    padding: 15px 5px;
+    background-color: #ffefff;
+    border-radius: 3px;
+    margin-right:2px;
+}

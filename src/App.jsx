@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import FourOhFour from './pages/404';
 import Home from './pages/Home';
 import Posts from './pages/Posts';
+import Post from './pages/Post';
 import UserPosts from './pages/UserPosts';
 
 const App = () => {
@@ -16,6 +17,10 @@ const App = () => {
 				{/* render Post Component when we hit /post */}
 				<Route exact path='/post'>
 					<Posts />
+				</Route>
+				{/* render Single Post Component when we hit /post/:id */}
+				<Route exact path='/post/:id'>
+					<Post />
 				</Route>
 				{/* render UserPost Component when we hit /userpost */}
 				<Route exact path='/userposts/:userid'>

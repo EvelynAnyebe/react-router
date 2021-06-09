@@ -1,4 +1,5 @@
 import '../styles/404.css';
+import {Link} from 'react-router-dom';
 
 const FourOhFour = () => {
 	return (
@@ -10,7 +11,7 @@ const FourOhFour = () => {
 				Maybe this page moved? Got deleted? Is hiding out in quarantine?
 				Never existed in the first place?
 				<p>
-					Let's go <a href='/home'>home</a> and try from there.
+					Let's go <Link to='/home'>home</Link> and try from there.
 				</p>
 			</div>
 		</div>

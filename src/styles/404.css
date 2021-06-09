@@ -1,14 +1,8 @@
 
-.mainbox {
-	background-color: #95c2de;
-	margin: auto;
-	height: 600px;
-	width: 600px;
-	position: relative;
-}
+
 
 .err {
-	color: #ffffff;
+	color: #f56e6e;
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 11rem;
 	position: absolute;
@@ -21,11 +15,11 @@
 	font-size: 8.5rem;
 	left: 42%;
 	top: 15%;
-	color: #ffffff;
+	color: #f56e6e;
 }
 
 .err2 {
-	color: #ffffff;
+	color: #f56e6e;
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 11rem;
 	position: absolute;
@@ -43,11 +37,4 @@
 	width: 75%;
 }
 
-a {
-	text-decoration: none;
-	color: white;
-}
 
-a:hover {
-	text-decoration: underline;
-}
