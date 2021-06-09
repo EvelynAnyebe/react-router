@@ -8,7 +8,7 @@ const Home = () => {
 			<div className='home-msg'>
 				Get started by viewing user posts for free!!
 				<p>
-					Let's go <Link to='/post'>User Posts</Link> and try from there.
+					Let's go <Link to='/post'>User Posts</Link>
 				</p>
 			</div>
 		</div>
